@@ -1,14 +1,14 @@
+def is_even(number):
+    return number % 2 == 0
+
 def even_number_of_evens(numbers):
     countEven = 0
-    if len(numbers) > 0:
-        for number in numbers:
-            if number % 2 == 0:
-                countEven += 1
-        if countEven == 0:
-            return False
-        if countEven % 2 == 0:
-            return True
-    return False
+    for number in numbers:
+        if is_even(number):
+            countEven += 1
+    if countEven == 0:
+        return False
+    return is_even(countEven)
 
 
 assert even_number_of_evens([]) is False, "No numbers"
