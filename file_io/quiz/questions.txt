@@ -1,0 +1,6 @@
+What is 1 plus 2?
+3
+What is the capital of Ireland?
+Dublin
+What is the capital of France?
+Paris
