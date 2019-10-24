@@ -1,0 +1,2 @@
+to loging to heroku on gitpod:
+        heroku login -i
